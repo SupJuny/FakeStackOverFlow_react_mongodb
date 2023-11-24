@@ -49,6 +49,7 @@ and the server during the development process.
 
 ## Run
 To use the initial data base, get into the server directory in your terminal.
+
 Type 'node populate_db.js mongodb://localhost:27017/fake_so' in the server side terminal.
 
 After loading initial data, open one more terminal and go to client directory.
