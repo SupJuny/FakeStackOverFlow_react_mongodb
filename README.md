@@ -48,9 +48,9 @@ I use the cors middleware to enable CORS for seamless connection between the cli
 and the server during the development process.
 
 ## Run
-To use the initial data base, get into the server directory in your terminal, and type 
-'node populate_db.js mongodb://localhost:27017/fake_so'.
+To use the initial data base, get into the server directory in your terminal.
+Type 'node populate_db.js mongodb://localhost:27017/fake_so' in the server side terminal.
 
-After loading initial data, open two terminals and go to client directory and server direcory for each.
+After loading initial data, open one more terminal and go to client directory.
 
 Type 'nodemon server/server.js' in the server side terminal and 'npm start' in the client side terminal.
